@@ -5,8 +5,21 @@
 
     echo "<br>";
 
-    $carroUm = ['Uno', 'Fiat', 'Branco'];
+    $carroUm = [
+    'modelo' => 'Uno',
+    'marca' => 'Fiat',
+    'cor' => 'Branco',
+    ];
 
-    print "$carroUm[0]"."<br>"."$carroUm[1]"."<br>"."$carroUm[2]";
+    echo "<br>";
 
+    print $carroUm['modelo'];
+
+    echo "<br>";
+
+    print $carroUm['marca'];
+
+    echo "<br>";
+
+    print $carroUm['cor'];
 ?>
