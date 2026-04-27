@@ -13,13 +13,15 @@
 
     echo "<br>";
 
-    print $carroUm['modelo'];
+    print "Modelo: ". $carroUm['modelo']. "<br>";
 
-    echo "<br>";
+    print "Marca: ". $carroUm['marca']. "<br>";
 
-    print $carroUm['marca'];
+    print "Cor: ". $carroUm['cor'];
 
-    echo "<br>";
-
-    print $carroUm['cor'];
+    /*
+    Lembrete: 
+        print: ""."";
+        echo: "","";
+    */
 ?>
