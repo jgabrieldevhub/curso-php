@@ -16,8 +16,9 @@
 
     /*
         arsort($carrinho);
+        asort($carrinho);
+        sort($carrinho);
     */
 
-    sort($carrinho);
     var_dump($carrinho);
 ?>
