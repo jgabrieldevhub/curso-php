@@ -1,0 +1,14 @@
+<?php
+    $idades = [
+        12, 14, 18, 20, 44, 50, 98, 78, 56
+    ];
+
+    // echo $idade[count($idades) - 1];
+    // echo end($idades);
+
+    $idadesFiltradas = array_filter($idades, function($idade){
+        return $idade >= 18;
+    });
+
+    var_dump($idadesFiltradas);
+?>
