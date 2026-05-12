@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="./01_exemplo_php/validar-cadastro.php" method="Post">
+    <form action="validar_cadastro.php" method="Post">
         <label for="email">E-mail: </label>
         <input type="email" name="email"><br>
         <label for="senha">Senha</label>
@@ -15,5 +15,9 @@
         <button type="submit">Acessar</button>
         <button type="reset">Limpar</button>
     </form>
+
+    <?php
+        echo $_GET['mensagem'] ?? "";
+    ?>
 </body>
 </html>
