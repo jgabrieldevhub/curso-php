@@ -4,5 +4,7 @@
     $email = $_POST["email"];
     $senha = $_POST["senha"];
 
-    echo "$nome - $telefone - $email - $senha";
+    $arquivo = fopen("usuarios.txt","a");
+    fwrite($arquivo, "$nome \t $telefone \t $email \t $email \t $senha \n");
+    fclose($arquivo);
 ?>
