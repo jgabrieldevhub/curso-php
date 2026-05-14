@@ -10,11 +10,11 @@
     <div class=" d-flex flex-column p-5 shadow">
         <h1 class="mb-4">Cadastro de Aluno</h1>
         <form action="cadastro.php" method="post" class="d-flex flex-column">
-            <label class="form-label" for="nome_produto" >RA</label>
+            <label class="form-label" for="ra" >RA</label>
             <input class="form-control mb-3" type="text" name="ra" placeholder="RA do aluno">
-            <label class="form-label" for="telefone">Nome</label>
+            <label class="form-label" for="nome">Nome</label>
             <input class="form-control mb-3" type="text" name="nome" placeholder="nome do aluno">
-            <label class="form-label" for="email">Idade</label>
+            <label class="form-label" for="idade">Idade</label>
             <input class="form-control mb-3" type="number" name="idade" placeholder="idade do aluno">
         <div class="mt-2">
             <button class="btn btn-primary text-white" type="submit">Cadastrar-se</button>
