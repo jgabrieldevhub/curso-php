@@ -8,7 +8,7 @@
 </head>
 <body class="d-flex align-items-center justify-content-center" style="with:100vw; height: 100vh;">
     <div class=" d-flex flex-column p-5 shadow">
-        <h1 class="mb-4">Cadastro de Aluno</h1>
+        <h1 class="mb-4">Cadastro de Evento</h1>
         <form action="cadastro.php" method="post" class="d-flex flex-column">
 
             <label class="form-label" for="nome" >Nome</label>
